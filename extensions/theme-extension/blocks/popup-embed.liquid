@@ -1,0 +1,12 @@
+{% if content_for_header contains 'shopify' %}
+  <script src="{{ 'popup.js' | asset_url }}" defer></script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Popup Embed",
+  "target": "body",
+  "javascript": "popup.js",
+  "settings": []
+}
+{% endschema %}

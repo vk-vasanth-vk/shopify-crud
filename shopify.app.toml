@@ -3,7 +3,7 @@
 client_id = "967b40b67457789fe725d9005bd03c20"
 name = "CRUD-app"
 handle = "crud-app-7"
-application_url = "https://membership-jurisdiction-para-alarm.trycloudflare.com"
+application_url = "https://heavily-evaluation-victory-site.trycloudflare.com"
 embedded = true
 
 [build]
@@ -27,9 +27,9 @@ scopes = "write_products, read_locations, write_inventory"
 
 [auth]
 redirect_urls = [
-  "https://membership-jurisdiction-para-alarm.trycloudflare.com/auth/callback",
-  "https://membership-jurisdiction-para-alarm.trycloudflare.com/auth/shopify/callback",
-  "https://membership-jurisdiction-para-alarm.trycloudflare.com/api/auth/callback"
+  "https://heavily-evaluation-victory-site.trycloudflare.com/auth/callback",
+  "https://heavily-evaluation-victory-site.trycloudflare.com/auth/shopify/callback",
+  "https://heavily-evaluation-victory-site.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]

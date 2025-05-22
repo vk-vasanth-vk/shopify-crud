@@ -1,0 +1,95 @@
+.review-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.total-reviews {
+  color: dimgray;
+}
+
+.review-section {
+  display: flex;
+  flex-wrap: wrap; /* Enables wrapping of items if space is insufficient */
+  gap: 25px; /* Space between cards */
+  justify-content: center; /* Center items horizontally */
+  align-items: stretch;
+}
+
+.review-stars {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.review-card {
+  background-color: #fafafa;
+  padding: 2rem;
+  border-radius: 15px;
+  width: calc(33% - 13px);
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid;
+}
+
+.review-logo {
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.review-author {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review-description {
+  margin: 0;
+  text-align: center;
+}
+
+.read-more {
+  color: #b9bbbd;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.review-date {
+  margin: 0;
+  color: #616161;
+}
+
+.review-platform-logo {
+  margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+  .review-card {
+    width: calc(33.33% - 25px); /* 3 cards per row for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .review-card {
+    width: calc(50% - 25px); /* 2 cards per row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .review-card {
+    width: 100%; /* 1 card per row for very small screens */
+  }
+}
